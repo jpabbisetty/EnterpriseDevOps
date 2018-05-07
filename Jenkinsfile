@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Dev') {
       steps {
-        git(url: 'git@git.digitalharbor.us:devops/scripts.git', branch: '*/master', credentialsId: 'jenkins_git_user')
+        git(url: 'git@git.digitalharbor.us:devops/scripts.git', branch: '*/master', credentialsId: 'oa45hcg48rnsmL3edyEP')
       }
     }
   }
