@@ -7,9 +7,8 @@ pipeline {
         sh '''dir(\'gs-gradle/initial\')
 {
 sh \'\'\'
-echo "Executing Gradle Build"
-gradle build --info
-gradle build
+echo "Executing Gradle Build";
+ls
 \'\'\'
 }'''
       }
